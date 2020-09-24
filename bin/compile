@@ -66,7 +66,7 @@ echo "done"
 minecraft_version=${MINECRAFT_VERSION:-"1.16.3"}
 
 if echo "$minecraft_version" | grep -q '^1\.1[1-9].*$'; then
-  minecraft_uuid="${MINECRAFT_UUID:="d0caafb8438ebd206f99930cfaecfa6c9a13dca0"}"
+  minecraft_uuid="${MINECRAFT_UUID:="f02f4473dbf152c23d7d484952121db0b36698cb"}"
   minecraft_url="https://launcher.mojang.com/v1/objects/f02f4473dbf152c23d7d484952121db0b36698cb/server.jar"
 else
   minecraft_url="https://launcher.mojang.com/v1/objects/f02f4473dbf152c23d7d484952121db0b36698cb/server.jar"
