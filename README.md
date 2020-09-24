@@ -3,7 +3,6 @@
 This is a [Heroku Buildpack](https://devcenter.heroku.com/articles/buildpacks) edited for 1.16.3
 for running a Minecraft server in a [dyno](https://devcenter.heroku.com/articles/dynos).
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Usage
 
@@ -100,12 +99,6 @@ $ heroku config:set NGROK_OPTS="--remote-addr 1.tcp.ngrok.io:25565"
 **NOTE** You can only set the remote address or custom subdomain if you have a Pro or Business ngrok account.
 
 ### Minecraft
-
-You can choose the Minecraft version by setting the MINECRAFT_VERSION like so:
-
-```
-$ heroku config:set MINECRAFT_VERSION="1.16.3"
-```
 
 You can also configure the server properties by creating a `server.properties`
 file in your project and adding it to Git. This is how you would set things like
