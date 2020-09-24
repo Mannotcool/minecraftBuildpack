@@ -22,7 +22,7 @@ Create a Heroku app, set your ngrok token, and push:
 ```sh-session
 $ heroku create
 $ heroku buildpacks:add heroku/jvm
-$ heroku buildpacks:add https://github.com/tobnap/minecraftBuildpack
+$ heroku buildpacks:add https://github.com/Mannotcool/minecraftBuildpack
 $ heroku config:set NGROK_API_TOKEN="xxxxx"
 $ git push heroku master
 ```
@@ -104,7 +104,7 @@ $ heroku config:set NGROK_OPTS="--remote-addr 1.tcp.ngrok.io:25565"
 You can choose the Minecraft version by setting the MINECRAFT_VERSION like so:
 
 ```
-$ heroku config:set MINECRAFT_VERSION="1.8.3"
+$ heroku config:set MINECRAFT_VERSION="1.16.3"
 ```
 
 You can also configure the server properties by creating a `server.properties`
