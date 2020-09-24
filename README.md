@@ -1,6 +1,6 @@
-# Heroku Minecraft Buildpack
+# Heroku Minecraft Buildpack For 1.16.3
 
-This is a [Heroku Buildpack](https://devcenter.heroku.com/articles/buildpacks)
+This is a [Heroku Buildpack](https://devcenter.heroku.com/articles/buildpacks) edited for 1.16.3
 for running a Minecraft server in a [dyno](https://devcenter.heroku.com/articles/dynos).
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
